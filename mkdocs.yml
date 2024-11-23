@@ -1,0 +1,181 @@
+# Project information
+site_name: Hello Netdev
+site_url: https://hello-netdev.littlesirius.top/
+site_author: Xiao-Jiang-233
+site_description: hello-网设
+site_dir: site
+# Repository
+repo_name: Xiao-Jiang-233/hello-netdev
+repo_url: https://github.com/Xiao-Jiang-233/hello-netdev
+edit_uri: tree/main/docs
+version: 0.0.10
+
+# Copyright
+ # copyright:
+
+# Configuration
+theme:
+  name: material
+  custom_dir: overrides
+  language: zh
+  features:
+    - announce.dismiss
+    - content.action.edit
+    # - content.action.view
+    - content.code.annotate
+    - content.code.copy
+    - content.code.select
+    - content.tabs.link
+    - content.tooltips
+    # - header.autohide
+    # - navigation.expand
+    - navigation.indexes
+    # - navigation.instant
+    # - navigation.prune
+    # - navigation.sections
+    # - navigation.tabs
+    # - navigation.tabs.sticky
+    - navigation.top
+    - navigation.footer
+    - navigation.tracking
+    - search.highlight
+    - search.share
+    - search.suggest
+    - toc.follow
+    # - toc.integrate
+  palette:
+    - scheme: default
+      primary: white
+      accent: teal
+      toggle:
+        icon: material/theme-light-dark
+        name: 深色模式
+    - scheme: slate
+      primary: black
+      accent: teal
+      toggle:
+        icon: material/theme-light-dark
+        name: 浅色模式
+  font:
+    text: Noto Sans SC
+    code: Fira Code
+  # favicon: assets/images/favicon.png
+  # logo: assets/images/logo.svg
+  # icon:
+  #   logo: logo
+  #   repo: fontawesome/brands/github
+  #   edit: fontawesome/regular/pen-to-square
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/Xiao-Jiang-233
+  generator: ture
+  status:
+    new: 最近添加
+
+# Plugins
+plugins:
+  - search
+  - glightbox:
+      touchNavigation: true
+      loop: false
+      effect: zoom
+      slide_effect: none
+      width: 100%
+      height: auto
+      zoomable: true
+      draggable: false
+      auto_caption: false
+      caption_position: bottom
+  - print-site:
+      add_to_navigation: true
+      print_page_title: '获得PDF'
+      add_print_site_banner: false
+      # Table of contents
+      add_table_of_contents: true
+      toc_title: '目录'
+      toc_depth: 6
+      # Content-related
+      add_full_urls: false
+      enumerate_headings: true
+      enumerate_figures: true
+      add_cover_page: true
+      cover_page_template: ""
+      path_to_pdf: ""
+      include_css: false
+      enabled: true
+      exclude:
+
+# Extensions
+markdown_extensions:
+  - abbr
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - toc:
+      permalink: true
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.keys
+  # - pymdownx.magiclink:
+  #     repo_url_shorthand: true
+  #     user: squidfunk
+  #     repo: mkdocs-material
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+
+extra_css:
+  - stylesheets/extra.css
+  # - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/katex.min.css
+
+# Page tree
+nav:
+  - 第 2 章 &nbsp; VLAN:
+      - vlan/index.md
+      - 2.1 &nbsp; 创建VLAN: vlan/create.md 
+      - 2.2 &nbsp; VLAN端口配置: vlan/interface.md 
+      - 2.3 &nbsp; VLAN间通信: vlan/comm.md
+      - 2.4 &nbsp; GVRP: vlan/gvrp.md
+  - 第 3 章 &nbsp; STP:
+      - stp/index.md
+      - 3.1 &nbsp; STP基础操作: stp/basics.md
+  - 第 4 章 &nbsp; 路由:
+      - route/index.md
+      - 4.1 &nbsp; 静态路由: route/static_routing.md
+      - 4.2 &nbsp; 动态路由: route/dynamic_routing.md
+  - 第 5 章 &nbsp; 网络安全:
+      - cyber_security/index.md
+      - 5.1 &nbsp; 端口隔离: cyber_security/port_isolation.md
+      - 5.2 &nbsp; 端口安全: cyber_security/port_security.md
+  - 第 6 章 &nbsp; ACL:
+      - acl/index.md
+      - 6.1 &nbsp; 基本ACL: acl/basic.md
+      - 6.2 &nbsp; 高级ACL: acl/adv.md
+  - 第 7 章 &nbsp; NAT:
+      - nat/index.md
+      - 6.1 &nbsp; 静态NAT: nat/static.md
+      - 6.2 &nbsp; 动态NAT & PAT: nat/dynamic&pat.md
+

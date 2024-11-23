@@ -1,0 +1,12 @@
+
+*.c linguist-language=Other
+*.h linguist-language=Other
+*.cs linguist-language=Other
+*.zig linguist-language=Other
+*.rs linguist-language=Other
+*.ts linguist-language=Other
+*.dart linguist-language=Other
+*.kt linguist-language=Other
+
+*.html linguist-detectable=false
+*.css linguist-detectable=false
