@@ -11,7 +11,7 @@ edit_uri: tree/main/docs
 version: 0.0.10
 
 # Copyright
- # copyright:
+copyright: Copyright &copy; 2024 小将<br>The website content is licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a>
 
 # Configuration
 theme:
@@ -90,11 +90,11 @@ plugins:
       caption_position: bottom
   - print-site:
       add_to_navigation: true
-      print_page_title: '获得PDF'
+      print_page_title: "获得PDF"
       add_print_site_banner: false
       # Table of contents
       add_table_of_contents: true
-      toc_title: '目录'
+      toc_title: "目录"
       toc_depth: 6
       # Content-related
       add_full_urls: false
@@ -153,29 +153,30 @@ extra_css:
 
 # Page tree
 nav:
+  - 序:
+      - chapter_hello_netdev/index.md
   - 第 2 章 &nbsp; VLAN:
-      - vlan/index.md
-      - 2.1 &nbsp; 创建VLAN: vlan/create.md 
-      - 2.2 &nbsp; VLAN端口配置: vlan/interface.md 
-      - 2.3 &nbsp; VLAN间通信: vlan/comm.md
-      - 2.4 &nbsp; GVRP: vlan/gvrp.md
+      - chapter_vlan/index.md
+      - 2.1 &nbsp; 创建VLAN: chapter_vlan/create.md
+      - 2.2 &nbsp; VLAN端口配置: chapter_vlan/interface.md
+      - 2.3 &nbsp; VLAN间通信: chapter_vlan/comm.md
+      - 2.4 &nbsp; GVRP: chapter_vlan/gvrp.md
   - 第 3 章 &nbsp; STP:
-      - stp/index.md
-      - 3.1 &nbsp; STP基础操作: stp/basics.md
+      - chapter_stp/index.md
+      - 3.1 &nbsp; STP基础操作: chapter_stp/basics.md
   - 第 4 章 &nbsp; 路由:
-      - route/index.md
-      - 4.1 &nbsp; 静态路由: route/static_routing.md
-      - 4.2 &nbsp; 动态路由: route/dynamic_routing.md
+      - chapter_route/index.md
+      - 4.1 &nbsp; 静态路由: chapter_route/static_routing.md
+      - 4.2 &nbsp; 动态路由: chapter_route/dynamic_routing.md
   - 第 5 章 &nbsp; 网络安全:
-      - cyber_security/index.md
-      - 5.1 &nbsp; 端口隔离: cyber_security/port_isolation.md
-      - 5.2 &nbsp; 端口安全: cyber_security/port_security.md
+      - chapter_cyber_security/index.md
+      - 5.1 &nbsp; 端口隔离: chapter_cyber_security/port_isolation.md
+      - 5.2 &nbsp; 端口安全: chapter_cyber_security/port_security.md
   - 第 6 章 &nbsp; ACL:
-      - acl/index.md
-      - 6.1 &nbsp; 基本ACL: acl/basic.md
-      - 6.2 &nbsp; 高级ACL: acl/adv.md
+      - chapter_acl/index.md
+      - 6.1 &nbsp; 基本ACL: chapter_acl/basic.md
+      - 6.2 &nbsp; 高级ACL: chapter_acl/adv.md
   - 第 7 章 &nbsp; NAT:
-      - nat/index.md
-      - 6.1 &nbsp; 静态NAT: nat/static.md
-      - 6.2 &nbsp; 动态NAT & PAT: nat/dynamic&pat.md
-
+      - chapter_nat/index.md
+      - 6.1 &nbsp; 静态NAT: chapter_nat/static.md
+      - 6.2 &nbsp; 动态NAT & PAT: chapter_nat/dynamic&pat.md
