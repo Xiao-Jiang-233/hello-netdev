@@ -2,7 +2,21 @@
 
 没啥要写的，拢共两句话。
 
-``` execline
+## 配置命令
+
+**gvrp** : 用来使能全局GVRP功能，或者使能接口GVRP功能。
+
+**gvrp** **registration** { **fixed** | **forbidden** | **normal** } : 用来设置GVRP接口注册模式。
+
+| 参数          | 参数说明                | 取值 |
+| ------------- | ----------------------- | ---- |
+| **fixed**     | 指定Fixed注册模式。     |      |
+| **forbidden** | 指定Forbidden注册模式。 |      |
+| **normal**    | 指定Normal注册模式。    |      |
+
+## 使用实例
+
+```text
 [Huawei]gvrp
 [Huawei]vlan batch 10 20
 [Huawei]int g0/0/1
