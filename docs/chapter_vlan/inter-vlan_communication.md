@@ -1,3 +1,6 @@
+---
+comments: true
+---
 # VLAN 间通信
 
 ## VLANIF 实现同 VLAN 间通信 (三层交换机)

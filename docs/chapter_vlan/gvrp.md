@@ -1,3 +1,6 @@
+---
+comments: true
+---
 # <center>GVRP (Generic Attribute Registration Protocol)</center>
 
 没啥要写的，拢共两句话。

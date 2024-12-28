@@ -155,7 +155,6 @@ markdown_extensions:
 
 extra_css:
   - stylesheets/extra.css
-  # - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/katex.min.css
 
 # Page tree
 nav:
