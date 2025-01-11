@@ -3,7 +3,7 @@ comments: true
 ---
 # <center class="force-page-break">STP (Spanning Tree Protocol)</center>
 
-![STP](/assets/covers/Image_placeholder.png)
+![STP](../assets/covers/Image_placeholder.png)
 
 !!!abstract
     STP 犹如变幻莫测的网络迷宫中的智慧指南针。

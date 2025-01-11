@@ -14,7 +14,7 @@ comments: ture
 
 ## 使用实例
 
-见[VLAN 端口配置](/chapter_vlan/port_configuration/#_4)
+见[VLAN 端口配置](port_configuration.md#_4)
 
 ## 注意事项
 

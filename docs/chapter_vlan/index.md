@@ -4,7 +4,7 @@ comments: true
 
 # <center class="force-page-break">VLAN (Virtual Local Area Network)</center>
 
-![VLAN](/assets/covers/Image_placeholder.png)
+![VLAN](../assets/covers/Image_placeholder.png)
 
 !!!abstract
     VLAN 犹如繁杂的网络世界中的灵动画笔。
