@@ -68,7 +68,7 @@ return
 
 ### 批量配置
 
-[port-group 使用方法](port_group.md)
+[port-group 使用方法](../chapter_basic_configuration/port_group.md)
 
 ```text
 [Huawei]port-group group-member g0/0/5 to g0/0/10
