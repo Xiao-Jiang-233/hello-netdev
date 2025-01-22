@@ -178,15 +178,15 @@ nav:
       - 4.2 &nbsp; 动态路由:
           - 4.2.1 &nbsp; RIP: chapter_route/rip.md
           - 4.2.2 &nbsp; OSPF: chapter_route/ospf.md
-  - 第 5 章 &nbsp; 网络安全:
-      - chapter_cyber_security/index.md
-      - 5.1 &nbsp; 端口隔离: chapter_cyber_security/port_isolation.md
-      - 5.2 &nbsp; 端口安全: chapter_cyber_security/port_security.md
-  - 第 6 章 &nbsp; ACL:
-      - chapter_acl/index.md
-      - 6.1 &nbsp; 基本ACL: chapter_acl/basic.md
-      - 6.2 &nbsp; 高级ACL: chapter_acl/adv.md
-  - 第 7 章 &nbsp; NAT:
-      - chapter_nat/index.md
-      - 6.1 &nbsp; 静态NAT: chapter_nat/static.md
-      - 6.2 &nbsp; 动态NAT & PAT: chapter_nat/dynamic&pat.md
+  # - 第 5 章 &nbsp; 网络安全:
+  #     - chapter_cyber_security/index.md
+  #     - 5.1 &nbsp; 端口隔离: chapter_cyber_security/port_isolation.md
+  #     - 5.2 &nbsp; 端口安全: chapter_cyber_security/port_security.md
+  # - 第 6 章 &nbsp; ACL:
+  #     - chapter_acl/index.md
+  #     - 6.1 &nbsp; 基本ACL: chapter_acl/basic.md
+  #     - 6.2 &nbsp; 高级ACL: chapter_acl/adv.md
+  # - 第 7 章 &nbsp; NAT:
+  #     - chapter_nat/index.md
+  #     - 6.1 &nbsp; 静态NAT: chapter_nat/static.md
+  #     - 6.2 &nbsp; 动态NAT & PAT: chapter_nat/dynamic&pat.md
