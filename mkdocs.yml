@@ -162,7 +162,7 @@ nav:
       - chapter_hello_netdev/index.md
   - 第 1 章 &nbsp; 设备的基本配置:
       - 批量配置: chapter_basic_configuration/port_group.md
-  - 第 2 章 &nbsp; VLAN 技术:
+  - 第 2 章 &nbsp; VLAN:
       - chapter_vlan/index.md
       - 2.1 &nbsp; 创建 VLAN: chapter_vlan/create_vlan.md
       - 2.2 &nbsp; VLAN端口配置: chapter_vlan/port_configuration.md
@@ -172,16 +172,16 @@ nav:
   - 第 3 章 &nbsp; STP:
       - chapter_stp/index.md
       - 3.1 &nbsp; STP基础操作: chapter_stp/basic_operations.md
-  - 第 4 章 &nbsp; 路由:
+  - 第 4 章 &nbsp; 路由技术:
       - chapter_route/index.md
       - 4.1 &nbsp; 静态路由: chapter_route/static_routing.md
       - 4.2 &nbsp; 动态路由:
           - 4.2.1 &nbsp; RIP: chapter_route/rip.md
           - 4.2.2 &nbsp; OSPF: chapter_route/ospf.md
-  # - 第 5 章 &nbsp; 网络安全:
-  #     - chapter_cyber_security/index.md
-  #     - 5.1 &nbsp; 端口隔离: chapter_cyber_security/port_isolation.md
-  #     - 5.2 &nbsp; 端口安全: chapter_cyber_security/port_security.md
+  - 第 5 章 &nbsp; 端口隔离 & 端口安全:
+      - chapter_cyber_security/index.md
+      - 5.1 &nbsp; 端口隔离: chapter_cyber_security/port_isolation.md
+      - 5.2 &nbsp; 端口安全: chapter_cyber_security/port_security.md
   # - 第 6 章 &nbsp; ACL:
   #     - chapter_acl/index.md
   #     - 6.1 &nbsp; 基本ACL: chapter_acl/basic.md
