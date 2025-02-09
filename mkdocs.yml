@@ -182,10 +182,10 @@ nav:
       - chapter_cyber_security/index.md
       - 5.1 &nbsp; 端口隔离: chapter_cyber_security/port_isolation.md
       - 5.2 &nbsp; 端口安全: chapter_cyber_security/port_security.md
-  # - 第 6 章 &nbsp; ACL:
-  #     - chapter_acl/index.md
-  #     - 6.1 &nbsp; 基本ACL: chapter_acl/basic.md
-  #     - 6.2 &nbsp; 高级ACL: chapter_acl/adv.md
+  - 第 6 章 &nbsp; ACL:
+      - chapter_acl/index.md
+      - 6.1 &nbsp; 配置 ACL: chapter_acl/configure_acl.md
+      - 6.2 &nbsp; 应用 ACL: chapter_acl/apply_acl.md
   # - 第 7 章 &nbsp; NAT:
   #     - chapter_nat/index.md
   #     - 6.1 &nbsp; 静态NAT: chapter_nat/static.md
