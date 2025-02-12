@@ -58,7 +58,7 @@ comments: true
 [Huawei]int g 0/0/1
 [Huawei-GigabitEthernet0/0/1]port-security enable
 [Huawei-GigabitEthernet0/0/1]port-security max-mac-num 5 # 默认为1，最大4096
-[Huawei-GigabitEthernet0/0/1]port-security aging-time 300 # 单位是秒，默认不老化，最大1440
+[Huawei-GigabitEthernet0/0/1]port-security aging-time 300 # 单位是分钟，默认不老化，最大1440
 [Huawei-GigabitEthernet0/0/1]port-security protect-action shutdown
 ```
 
