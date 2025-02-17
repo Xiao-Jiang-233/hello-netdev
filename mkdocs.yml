@@ -186,7 +186,8 @@ nav:
       - chapter_acl/index.md
       - 6.1 &nbsp; 配置 ACL: chapter_acl/configure_acl.md
       - 6.2 &nbsp; 应用 ACL: chapter_acl/apply_acl.md
-  # - 第 7 章 &nbsp; NAT:
-  #     - chapter_nat/index.md
-  #     - 6.1 &nbsp; 静态NAT: chapter_nat/static.md
-  #     - 6.2 &nbsp; 动态NAT & PAT: chapter_nat/dynamic&pat.md
+  - 第 7 章 &nbsp; NAT:
+      - chapter_nat/index.md
+      - 6.1 &nbsp; 静态NAT: chapter_nat/static_nat.md
+      - 6.2 &nbsp; 动态NAT & Easy IP: chapter_nat/dynamic_nat&easy_ip.md
+      # - 6.3 &nbsp; NAT Server: chapter_nat/ 好像不考
